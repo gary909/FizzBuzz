@@ -21,3 +21,10 @@ function fizzBuzz(num){
 }
 
 console.log(fizzBuzz(20));
+
+function whosPaying(names) {
+    var random = Math.floor(Math.random() * names.length);
+     return names[random];
+}
+
+console.log(whosPaying(["Angela", "Ben", "Jenny", "Michael", "Chloe"]));
